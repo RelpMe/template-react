@@ -1,8 +1,9 @@
 /** @type{import("@storybook/react-webpack5").StorybookConfig} */
 module.exports = {
   stories: [
-    "../components/**/*.stories.mdx",
-    "../components/**/*.stories.@(js|jsx|ts|tsx)",
+    "../doc/pages/*.mdx",
+    "../doc/components/**/*.stories.mdx",
+    "../doc/components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
 
   addons: [
